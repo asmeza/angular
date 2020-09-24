@@ -1,0 +1,19 @@
+.principal{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 50px;
+}
+    .formu{
+        flex: 4;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .tabla{
+        flex: 8;
+        text-align: center;
+        margin: 30px;
+    }
+        .fom{
+            font-family: 'Times New Roman', Times, serif;
+        }

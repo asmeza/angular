@@ -1,0 +1,24 @@
+.header{
+    display: flex; /*Le indicamos que el padre usara la tecnologia flex*/
+    justify-content: flex-end;
+    align-items: center; 
+}
+    .logo{
+        flex: 2; /*le indicamos en cuanto espacio divideremos el logo sera de 2*/
+
+
+    }
+        .img{
+            width: 200px;
+            height: 130px;
+        }
+    .title{
+        flex: 10; /*le indicamos en cuanto espacio divideremos el titulo sera de 10*/
+        margin-left: 120px  ;
+        width: 100%;   
+    }
+        .h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    /*Nota: es total los flex que se le asignen a los hijos de una clase padre deberan sumar 12*/
+

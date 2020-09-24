@@ -1,0 +1,42 @@
+.contenedor{
+    height: 119vh;
+    /* margin:  20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px; */
+    /* border: 2px solid darkblue; */
+
+     display: grid;  /*Indicamos que usaremos la tecnologia grid*/
+
+     grid-template-columns: repeat(12, 1fr);  /* indicamos que usaremos doce columlas de un fr o alto cada una */
+    
+     grid-template-rows: 1fr 1fr 4fr 1fr ;    /* Indicamos el alto que tendra cada fila de nuestro diseño, cada 
+                                              fr reprensta un etiqueta que hemos creado en el html */
+
+}
+
+.header{
+    grid-column: span 12;
+    /* border: 2px solid darkcyan; */
+}
+
+.menu{
+    grid-column: span 12;
+    height: 80px;
+    /* border: 2px solid darkcyan; */
+}
+
+.carrusel{
+    grid-column: span 12;
+    /* border: 2px solid darkcyan;  */
+    height: 585px;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.footer{
+    grid-column: span 12;
+    height: 73px;
+    /* border: 2px solid darkcyan; */
+}
+
+
